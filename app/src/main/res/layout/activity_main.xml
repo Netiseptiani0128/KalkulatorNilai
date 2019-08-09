@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/war"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR NILAI"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai PTS"
+        android:id="@+id/edt_NilaiPTS"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Tugas"
+        android:id="@+id/edt_NilaiTugas"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai PAS"
+        android:id="@+id/edt_NilaiPAS"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_gravity="center"
+        android:id="@+id/btnHitung"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Akhir :"
+        android:id="@+id/txt_nilaiAkhir"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Kelulusan :"
+        android:id="@+id/txt_statusKelulusan"
+        android:textSize="20dp"/>
+</LinearLayout>
